@@ -1,0 +1,4 @@
+id,author-id,article-id,comment-text,timestamp
+1,2,1,"Boo!",2020-02-28 14:31:26
+2,1,1,"I love this movie!",2020-02-28 14:39:51
+3,3,1,"Amazing!!",2020-02-29 08:12:08

@@ -1,0 +1,11 @@
+{% extends 'layout_for_home.html' %} {% block content %}
+<main id="main">
+  <p style="text-align: center">
+    THIS IS A MOVIE BROWSING WEB APP
+  </p>
+  <p style="text-align: center">
+    PLEASE <a id = "register" href="{{ url_for('authentication_bp.register') }}">REGISTER</a> OR
+    <a id="login" href="{{ url_for('authentication_bp.login') }}">LOG IN</a> TO GET FULL FEATURES
+  </p>
+</main>
+{% endblock %}
